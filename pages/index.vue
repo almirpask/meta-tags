@@ -71,7 +71,7 @@ export default {
         },
         {
           name: 'og:image',
-          content: '// https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
+          content: 'https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
         },
         {
           name: 'title',
@@ -83,7 +83,7 @@ export default {
         },
         {
           name: 'image',
-          content: '// https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
+          content: 'https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
         },
 
       ]
