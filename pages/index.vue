@@ -62,30 +62,10 @@ export default {
       title: 'Meta tags with vuu',
       meta: [
         {
-          name: 'og:title',
-          content: 'meta tags test'
+          'og:title': 'meta tags test',
+          'og:description': 'meta tags test description',
+          'og:image': 'https://hangouts.google.com/_/elUi/chat-redirect?authuser=1&dest=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fiasd-news.appspot.com%2Fo%2Fteste.jpg%3Falt%3Dmedia%26token%3D03ad9a6e-2a67-4c51-9010-8ca60567b11c',
         },
-        {
-          name: 'og:description',
-          content: 'meta tags test descripion'
-        },
-        {
-          name: 'og:image',
-          content: 'https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
-        },
-        {
-          name: 'title',
-          content: 'meta tags test'
-        },
-        {
-          name: 'description',
-          content: 'meta tags test descripion'
-        },
-        {
-          name: 'image',
-          content: 'https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
-        },
-
       ]
     }
   },
