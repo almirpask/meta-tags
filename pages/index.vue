@@ -55,7 +55,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
+// https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c
 export default {
   head(){
     return {
@@ -63,60 +63,29 @@ export default {
       meta: [
         {
           name: 'og:title',
-          content: 'hahahtest'
-        },
-        {
-          name: 'og:image',
-          content: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn1.valuegaia.com.br%2Fgaiasite%2F21219%2Fmedia%2F1365886ce64a6f9dedbe899d94634a94-casa.jpg&imgrefurl=https%3A%2F%2Fwww.carneirolyraimoveis.com.br%2F&docid=JctqvQ6u3uOeOM&tbnid=TuNluZAptdgPqM%3A&vet=10ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA..i&w=491&h=296&bih=690&biw=1280&q=imovel%20foto&ved=0ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA&iact=mrc&uact=8'
+          content: 'meta tags test'
         },
         {
           name: 'og:description',
-          content: 'batatas'
+          content: 'meta tags test descripion'
         },
         {
-          name: 'keywords',
-          keywords: 'fritas'
-        },
-        {
-          hid: `og:title`,
-          name: 'og:title',
-          content: 'hahahtest'
-        },
-        {
-          hid: `og:image`,
           name: 'og:image',
-          content: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn1.valuegaia.com.br%2Fgaiasite%2F21219%2Fmedia%2F1365886ce64a6f9dedbe899d94634a94-casa.jpg&imgrefurl=https%3A%2F%2Fwww.carneirolyraimoveis.com.br%2F&docid=JctqvQ6u3uOeOM&tbnid=TuNluZAptdgPqM%3A&vet=10ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA..i&w=491&h=296&bih=690&biw=1280&q=imovel%20foto&ved=0ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA&iact=mrc&uact=8'
+          content: '// https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
         },
         {
-          hid: `og:descriptions`,
-          name: 'og:description',
-          content: 'batatas'
-        },
-        {
-          hid: `og:keywords`,
-          name: 'keywords',
-          keywords: 'fritas'
-        },
-        {
-          hid: `title`,
           name: 'title',
-          content: 'hahahtest'
+          content: 'meta tags test'
         },
         {
-          hid: `image`,
-          name: 'image',
-          content: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn1.valuegaia.com.br%2Fgaiasite%2F21219%2Fmedia%2F1365886ce64a6f9dedbe899d94634a94-casa.jpg&imgrefurl=https%3A%2F%2Fwww.carneirolyraimoveis.com.br%2F&docid=JctqvQ6u3uOeOM&tbnid=TuNluZAptdgPqM%3A&vet=10ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA..i&w=491&h=296&bih=690&biw=1280&q=imovel%20foto&ved=0ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA&iact=mrc&uact=8'
-        },
-        {
-          hid: `descriptions`,
           name: 'description',
-          content: 'batatas'
+          content: 'meta tags test descripion'
         },
         {
-          hid: `keywords`,
-          name: 'keywords',
-          keywords: 'fritas'
-        }
+          name: 'image',
+          content: '// https://firebasestorage.googleapis.com/v0/b/iasd-news.appspot.com/o/teste.jpg?alt=media&token=03ad9a6e-2a67-4c51-9010-8ca60567b11c'
+        },
+
       ]
     }
   },
