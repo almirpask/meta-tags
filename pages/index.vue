@@ -62,6 +62,26 @@ export default {
       title: 'Meta tags with vuu',
       meta: [
         {
+          hid: `og:title`,
+          name: 'og:title',
+          content: 'hahahtest'
+        },
+        {
+          hid: `og:image`,
+          name: 'og:image',
+          content: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn1.valuegaia.com.br%2Fgaiasite%2F21219%2Fmedia%2F1365886ce64a6f9dedbe899d94634a94-casa.jpg&imgrefurl=https%3A%2F%2Fwww.carneirolyraimoveis.com.br%2F&docid=JctqvQ6u3uOeOM&tbnid=TuNluZAptdgPqM%3A&vet=10ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA..i&w=491&h=296&bih=690&biw=1280&q=imovel%20foto&ved=0ahUKEwj_udrv38XfAhUEfZAKHf8wC_oQMwg9KAAwAA&iact=mrc&uact=8'
+        },
+        {
+          hid: `og:descriptions`,
+          name: 'og:description',
+          content: 'batatas'
+        },
+        {
+          hid: `og:keywords`,
+          name: 'keywords',
+          keywords: 'fritas'
+        },
+        {
           hid: `title`,
           name: 'title',
           content: 'hahahtest'
